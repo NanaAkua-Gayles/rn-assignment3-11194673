@@ -3,6 +3,8 @@ import { StyleSheet, Text, View } from 'react-native';
 import Header from './Header';
 import SearchBox from "./searchbox";
 import ImageContainer from './images';
+import ButtonList from './buttonlist';
+
 
 export default function App() {
 return (
@@ -10,7 +12,8 @@ return (
     <Header/>
     <SearchBox/>
     <Text style={{fontWeight:"bold"}}>Categories</Text>
-    <ImageContainer/>
+    <ImageContainer/> 
+    <ButtonList/>
    </View>
   );
 }
@@ -18,7 +21,7 @@ return (
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'gold',
+    backgroundColor: '#FFFDD0',
     paddingTop: 30,
     
 
