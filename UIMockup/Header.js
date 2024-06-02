@@ -5,11 +5,11 @@ const Header = () => {
   return (
     <View style={styles.container}>
         <View>
-      <Text style={{fontSize: 22 , fontWeight: 'bold',}}>Hello, Devs</Text> 
+      <Text style={{fontSize: 22 , fontWeight: 'bold'}}>Hello, Devs</Text> 
       <Text>14 tasks today</Text>
       </View>
       <Image
-        source={require('.dev/logo.jpg')}
+        source={require('./images/logo.jpg')}
         style={styles.logo}
         resizeMode="contain"
       />
